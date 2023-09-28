@@ -64,9 +64,8 @@ public class MainActivity extends AppCompatActivity {
                         for (int i=0; i<dataModelQuestionList.size();i++){
                             String rightAnswer = dataModelQuestionList.get(i).rightAnswer;
                             for (int j=0; j<dataModelQuestionList.get(i).getDataModelMCQList().size();j++){
-                                if ()
-                                if (rightAnswer.equals())
-                                    dataModelQuestionList.get(i).getDataModelMCQList().get(j).getIsSelected();
+                                if (dataModelQuestionList.get(i).getDataModelMCQList().get(j).getIsSelected()){
+                                    rightAnswer = "";
                                 }
                             }
                         }
